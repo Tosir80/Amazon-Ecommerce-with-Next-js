@@ -24,8 +24,10 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: rgb(10, 227, 93);
+    background-color: white;
+    color: black ;
+    overflow-x: hidden
+    
   }
 }
 
@@ -34,15 +36,4 @@ a {
   @apply duration-500  transition-all ;
   color:green ;
   font-weight: 600;
-}
-
-.active::after{
-  content: '';
-  width: 60px;
- height: 2px; 
- background: red;
- display: block;
- text-align: center;
- margin: 0 auto;
-
 }
